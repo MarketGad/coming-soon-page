@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     flex-direction: column;
     width: 100%;
+    overflow: hidden;
 }
 
 .tagline {
@@ -26,13 +27,9 @@ body {
     border-radius: 0.7rem;
 }
 
-.submit {
-    margin-left: 3rem;
-}
-
 .join {
     margin-left: 50px;
-    padding-top: 17rem;
+    padding-top: 8rem;
     text-align: center;
     margin-top: 12%;
 }
@@ -74,8 +71,6 @@ img {
 .modal-content {
     background-color: white;
     padding: 20px;
-    /* border: 1px solid #888; */
-    /* width: 80%; */
 }
 
 .close {
@@ -93,7 +88,9 @@ img {
 
 @media screen and (max-width: 700px) {
     body {
-        font-size: 0.5em;
+        font-size: 0.6em;
+        height: 100vh;
+        overflow-y: scroll;
     }
     .tagline {
         margin-top: 0;
@@ -103,18 +100,23 @@ img {
 
 @media screen and (max-width: 500px) {
     body {
+        height: 120vh;
+        background-size: cover;
         background-position: 55% 50%;
-        overflow-y: scroll;
+        vertical-align: baseline;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 2.3em;
     }
     .tagline {
-        margin-top: 0;
-        font-size: 0.5em;
+        margin-top: 10%;
     }
     .tag p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .join {
-        margin-top: 60%;
+        margin-top: 70%;
     }
     .logo {
         margin: 0;
