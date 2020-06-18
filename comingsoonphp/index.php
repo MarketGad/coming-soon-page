@@ -1,9 +1,14 @@
 <?php
+  // $servername = "localhost";
+  // $username = "u518613657_root";
+  // $password = "password";
+  // $dbname = "u518613657_root";
+
   $servername = "localhost";
-  $username = "u518613657_root";
+  $username = "root";
   $password = "password";
-  $dbname = "u518613657_root";
-  
+  $dbname = "marketgadsubscription"; 
+
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
   
