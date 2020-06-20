@@ -1,14 +1,9 @@
 <?php
-  // $servername = "localhost";
-  // $username = "u518613657_root";
-  // $password = "password";
-  // $dbname = "u518613657_root";
-
   $servername = "localhost";
-  $username = "root";
+  $username = "u518613657_root";
   $password = "password";
-  $dbname = "marketgadsubscription"; 
-
+  $dbname = "u518613657_root";
+  
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
   
@@ -57,7 +52,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=1.1" />
   </head>
   <body>
     <div class="container">
